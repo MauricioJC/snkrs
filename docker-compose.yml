@@ -1,0 +1,11 @@
+version: '3'
+services:
+  node:
+    image: node:16.15.1-alpine
+    container_name: xnike
+    ports: 
+      - 9001:80
+    working_dir: /var/www
+    volumes: 
+      - .:/var/www
+    command: npm run dev

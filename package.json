@@ -1,0 +1,21 @@
+{
+    "name": "snkrs",
+    "description": "snkrs",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "cheerio": "^1.0.0-rc.11",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "node-cron": "^3.0.1",
+        "nodemon": "^2.0.16",
+        "telegraf": "^4.8.5",
+        "uuid": "^8.3.2"
+    }
+}
