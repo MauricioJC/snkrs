@@ -5,7 +5,7 @@ services:
     container_name: xnike
     ports: 
       - 9001:80
-    working_dir: /var/www
+    working_dir: /app
     volumes: 
-      - .:/var/www
+      - .:/app
     command: npm run dev
